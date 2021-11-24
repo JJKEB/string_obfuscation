@@ -1,0 +1,10 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+.container .text-box {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 20px;
+}

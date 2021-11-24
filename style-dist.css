@@ -1,0 +1,12 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+.container .text-box {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 20px;
+}
