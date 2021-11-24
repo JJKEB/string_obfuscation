@@ -5,11 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="//www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="./style-dist.css">
 </head>
 <body>
-  <textarea name="" id="" cols="30" rows="10" class="origin_txt">난독화할 원본 텍스트</textarea>
-  <textarea name="" id="" cols="30" rows="10" class="replace_txt">난독화된 텍스트</textarea>
-  <button type="button">문자 난독화</button>
+
+  <div class="container w3-animate-opacity">
+    <div class="text-box">
+      <textarea name="" id="" cols="30" rows="10" class="origin_txt" placeholder="난독화할 문자를 입력해주세요."></textarea>
+      <textarea name="" id="" cols="30" rows="10" class="replace_txt">난독화된 텍스튼</textarea>
+    </div>
+
+    <button type="button" class="btn-obfuscation w3-btn w3-teal btn-addInput">한글 난독화</button>
+  </div>
+
 <script src="./script.js"></script>
 </body>
 </html>
